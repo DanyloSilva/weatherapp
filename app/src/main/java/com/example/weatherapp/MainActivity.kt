@@ -61,7 +61,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     topBar = {
                         TopAppBar(
-                            title = { Text("Bem-vindo/a!") },
+                            title = { Text("Bem-vindo!") },
                             actions = {
                                 IconButton( onClick = { finish() } ) {
                                     Icon(
