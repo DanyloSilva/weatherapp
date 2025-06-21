@@ -94,7 +94,6 @@ fun LoginPage(modifier: Modifier = Modifier) {
                             .signInWithEmailAndPassword(email, password)
                             .addOnCompleteListener(activity) { task ->
                                 if (task.isSuccessful) {
-
                                     Toast.makeText(
                                         activity,
                                         "Login OK!",
