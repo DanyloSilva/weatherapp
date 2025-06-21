@@ -94,11 +94,7 @@ fun LoginPage(modifier: Modifier = Modifier) {
                             .signInWithEmailAndPassword(email, password)
                             .addOnCompleteListener(activity) { task ->
                                 if (task.isSuccessful) {
-                                    activity.startActivity(
-                                        Intent(activity, MainActivity::class.java).setFlags(
-                                            FLAG_ACTIVITY_SINGLE_TOP
-                                        )
-                                    )
+
                                     Toast.makeText(
                                         activity,
                                         "Login OK!",

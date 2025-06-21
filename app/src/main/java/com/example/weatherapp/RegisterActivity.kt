@@ -114,7 +114,6 @@ fun RegisterPage(modifier: Modifier = Modifier) {
                                         "Registro OK!",
                                         Toast.LENGTH_LONG
                                     ).show()
-                                    activity.finish()
                                     activity.startActivity(
                                         Intent(activity, LoginActivity::class.java).setFlags(
                                             FLAG_ACTIVITY_SINGLE_TOP
