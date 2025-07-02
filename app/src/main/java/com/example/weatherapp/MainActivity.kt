@@ -60,6 +60,7 @@ class MainActivity : ComponentActivity() {
                         if (city.isNotBlank()) viewModel.add(city)
                         showDialog = false
                     })
+
                 Scaffold(
                     topBar = {
                         TopAppBar(
